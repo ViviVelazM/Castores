@@ -1,0 +1,22 @@
+1. CONOCIMIENTOS SQL
+
+1.1 Funcionamiento general de la secuencia JOIN.
+
+1.2 Tipos de JOIN y funcionamiento de los mismos.
+
+1.3 Funcionamiento general de los TRIGGER y que porpósito tienen.
+
+1.4 Qué es y para qué sirve un STORED PROCEDURE.
+
+1.5 Traer todos los productos que tengan una venta.
+
+1.6 Traer todos los producyos que tengan ventas y la cantidad total de productos vendidos.
+
+1.7 Traer todos los productos y la suma total vendida por producto.
+
+
+
+2. EJERCICIO PRÁCTICO: BD
+2.1 Crea un diagrama relacional de BD para el escenario descrito.
+2.2 Hacer el script para crear las tablas del punto anterior.
+
