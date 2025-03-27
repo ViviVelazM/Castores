@@ -1,19 +1,31 @@
 1. CONOCIMIENTOS SQL
 
 1.1 Funcionamiento general de la secuencia JOIN.
+    La sentencia JOIN tiene como función poder consultar datos uniendo los resultados de dos o más tablas 
+    teniendo en común algún campo.
 
 1.2 Tipos de JOIN y funcionamiento de los mismos.
+    INNER JOIN - Muestra los resultados donde el campo en común por el que se relacionan, coincida o haya un registro en ambas tablas.
+    LEFT JOIN - Muestra los resultados tanto de la primer tabla como los que coinciden con la segunda tabla según el campo en común.
+    RIGHT JOIN - Muestra los resultados de la segunda tabla y los que coinciden con la primera tabla según el campo en común.
+    FULL JOIN - Muestra todos los resultados de ambas tablas, coincidan o no según el campo en común.
 
-1.3 Funcionamiento general de los TRIGGER y que porpósito tienen.
+1.3 Funcionamiento general de los TRIGGER y que propósito tienen.
+    La sentencia TRIGGER permite crear un procedimiento que se ejecuta automaticamente según una acción realizada. 
+    Puede ser después de una inserción, actualización o eliminación en alguna tabla cuando el disparador sea ejecutado,
+    con diferentes tipos de propósitos por ejemplo copias o replicas de tabla, actualización de datos derivados de otras tablas,
+    entre otros.
 
 1.4 Qué es y para qué sirve un STORED PROCEDURE.
+    La sentencia STORED PROCEDURE es un procedimiento almacenado, es decir, guarda acciones que se deseen ejecutar permitiendo 
+    ejecutar el procedimiento almacenado sin necesidad de escribir la acción completa nuevamente. Puede considerarse como un 
+    tipo de método que puede ser mandado a llamar diversas veces. 
 
 1.5 Traer todos los productos que tengan una venta.
 
 1.6 Traer todos los producyos que tengan ventas y la cantidad total de productos vendidos.
 
 1.7 Traer todos los productos y la suma total vendida por producto.
-
 
 
 2. EJERCICIO PRÁCTICO: BD
