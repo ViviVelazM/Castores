@@ -23,7 +23,7 @@ fun Exporta()
         if (sig == 0){
             var producto = frn.get("torno", i, "coln"); //Obten la clave del producto del renglon
             sig = 1;
-        } else if (producto != frn-get("torno", i, "coln")) {
+        } else if (producto != frn-get("torno", i, "coln") || i == frn.N("torno")-2) {
             sig = 0;
             i --;
             
